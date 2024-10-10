@@ -22,7 +22,7 @@ from typing import List
 load_dotenv()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-# Initialize Pinecone
+# Initialize Pinecone Database
 pc = Pinecone(
         api_key=os.environ.get("PINECONE_API_KEY")
     )
