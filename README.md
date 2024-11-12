@@ -98,3 +98,7 @@ You can modify the `query` variable in `main.py` to ask different questions.
 * **Advanced Chunking**: Implement smarter text chunking methods to improve context retrieval
 * **Fine-tuning**: Experiment with fine-tuning models on specific datasets to improve answer quality
 * **User Interface**: Develop a web or command-line interface for users to input queries more conveniently
+
+## Acknowledgments
+
+* The citation system implementation was inspired by and adapted from the Instructor library's exact citations example, which can be seen [here](https://python.useinstructor.com/examples/exact_citations/)
